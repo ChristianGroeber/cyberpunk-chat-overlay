@@ -1,0 +1,44 @@
+:root {
+    --black: #272932;
+    --red: #710000;
+    --yellow: #fdf500;
+    --teal: #37ebf3;
+    --pink: #cb1dcd;
+}
+
+body {
+    color: var(--teal);
+}
+
+p {
+    font-family: Azonix;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: kill-the-noise;
+    color: var(--teal);
+    font-size: 10rem;
+    margin: 0;
+}
+
+.message-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.message-author {
+    margin-right: 1rem;
+}
+
+ @font-face {
+  font-family: Azonix;
+  src: url("/fonts/Azonix.otf");
+} 
+
+@font-face {
+  font-family: kill-the-noise;
+  src: url("/fonts/Kill\ The\ Noise.otf");
+} 
